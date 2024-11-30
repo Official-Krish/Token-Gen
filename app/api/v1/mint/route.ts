@@ -24,7 +24,7 @@ export const POST = async (req: NextRequest) => {
             mintPublicKey,
             destinationPublicKey
         );
-
+        
         // Mint tokens to the associated account
         await mintTo(
             connection,
